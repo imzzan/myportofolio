@@ -61,7 +61,7 @@ const Project = () => {
           <p>
           Blog Shop Website
           </p>
-          <a href="https://mern-memorize-blog.vercel.app/" target="_blank" rel="noopener noreferrer">Lihat Website</a>
+          <a href="https://nextjs-blog-shop.vercel.app/" target="_blank" rel="noopener noreferrer">Lihat Website</a>
         </div>
 
 
