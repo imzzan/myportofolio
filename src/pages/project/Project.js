@@ -33,6 +33,14 @@ const Project = () => {
         </div>
 
         <div className='item-project'>
+          <img src="/zanzanshop.png" alt="" />
+          <p>
+          Notepad Website
+          </p>
+          <a href="https://react-shop-sandy.vercel.app/" target="_blank" rel="noopener noreferrer">Lihat Website</a>
+        </div>
+
+        <div className='item-project'>
           <img src="/chartstatistik.png" alt="" />
           <p>
           Chart Statistika
