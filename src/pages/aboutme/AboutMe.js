@@ -17,8 +17,7 @@ const AboutMe = () => {
             <h1>Perkenalkan Singkat Saya</h1>
             <p className="saya-muzani">
               Salam Kenal, Saya Muhamad Muzani dari Cirebon, Provinsi Jawa
-              Barat, Indonesia. Saya Junior Developer dan Seorang Mahasiswa
-              Swasta yang ada di Cirebon.
+              Barat, Indonesia. Saya Junior Developer dan Seorang Mahasiswa di STMIK IKMI Cirebon.
             </p>
             <h1>Keseharian Saya :</h1>
             <div className="keseharian">
