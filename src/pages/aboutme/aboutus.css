@@ -1,0 +1,95 @@
+.aboutme {
+    width:100%;
+    height:100%;
+}
+.container-aboutme {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    color: #fff;
+}
+.perkenalan-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.perkenalan-about img {
+    width: 500px;
+}
+.perkenalan-about h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.perkenalan-about .saya-muzani {
+    text-align: center;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+    font-size: 1.1rem;
+}
+.perkenalan-about .keseharian {
+    margin-left: 150px;
+}
+.perkenalan-about .keseharian p {
+    margin: 15px 0px;
+    font-size: 1.1rem;
+}
+.perkenalan-about .keseharian p span {
+    margin-right: 10px;
+}
+
+.personal-skill {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.personal-skill h1 {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.personal-skill .item-skill {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0px 30px;
+}
+.personal-skill .item-skill .skill {
+    font-size: 4rem;
+    padding: 20px;
+    border: 1px solid;
+    box-shadow: 0 0 7px white;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.personal-skill .item-skill .skill:hover {
+    outline: none;
+    border-color: #5608d4;
+    box-shadow: 0 0 10px  #5608d4;
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
+@media (max-width : 800px) {
+    .perkenalan-about {
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+    .perkenalan-about img {
+        width: 100%;
+    }
+
+}
+@media (max-width : 450px) {
+    .perkenalan-about h1 {
+        font-size: 1rem;
+    }
+    .perkenalan-about .saya-muzani {
+        font-size: 0.8rem;
+    }
+    .perkenalan-about .keseharian {
+        margin-left: 40px;
+    }
+}

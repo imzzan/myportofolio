@@ -1,0 +1,76 @@
+.home {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.perkenalan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.perkenalan h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+.perkenalan .typed {
+    color : rgb(29, 29, 182);
+    box-shadow: 0 0 8px  rgb(9, 9, 179);
+}
+
+.myself {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.myself h1 {
+    text-align: center;
+    margin-bottom: 1px;
+    text-transform: capitalize;
+}
+.myself p {
+    line-height: 40px;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+@media (max-width : 800px) {
+    .perkenalan {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 5px
+    }
+    .myself {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        padding: 0px 20px;
+    }
+    .myself p {
+        font-size: 0.8rem;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width : 450px) {
+    .myself {
+        padding: 0px 10px;
+    }
+    .myself p {
+        font-size : 0.6rem;
+    }
+}
